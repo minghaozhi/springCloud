@@ -10,8 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>eureka-customer</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../eureka-customer2</module>
+    </modules>
 
-<dependencies>
+    <dependencies>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

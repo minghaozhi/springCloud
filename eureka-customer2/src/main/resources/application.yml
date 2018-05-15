@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: hello-ribbon
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8081/eureka/
+
+
+
