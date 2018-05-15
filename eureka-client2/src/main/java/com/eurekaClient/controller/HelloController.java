@@ -31,7 +31,7 @@ public class HelloController {
 
     @RequestMapping("/info")
     public String Hello(){
-        return "hello xxx，this is hello-service2 message";
+        return "hello xxx，this is hello-service2 message ";
     }
 
 
