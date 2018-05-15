@@ -7,6 +7,6 @@ springcloud学习，基于springboot2.0.2
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
-
+因为springcloud通过http协议通信，需要依赖web
 
 feign的依赖包名字有点改变，需要引入spring-cloud-starter-openfeign
